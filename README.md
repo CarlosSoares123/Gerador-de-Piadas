@@ -12,4 +12,6 @@
 
 # API
 
+https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit
+
 <a href="https://carlossoares123.github.io/gerador-piadas/">Visitar site</a>
