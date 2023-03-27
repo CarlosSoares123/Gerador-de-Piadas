@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gerador de Piadas</title>
+    <script src="./global.js" defer></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap"
     />
@@ -18,24 +19,5 @@
       <button id="btn">Get Random Joke</button>
     </div>
 
-    <script>
-      const jokeContainer = document.getElementById("joke");
-      const btn = document.getElementById("btn");
-      const url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single";
-
-
-      let getJoker = () => {
-        jokeContainer.classList.remove('fade')
-        fetch(url)
-        .then(data => data.json())
-        .then(item => {
-          jokeContainer.textContent = `${item.joke}`;
-        jokeContainer.classList.add('fade')
-        });
-      }
-      btn.addEventListener('click', getJoker)
-      getJoker()
-
-    </script>
   </body>
 </html>
