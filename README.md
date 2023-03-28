@@ -18,7 +18,7 @@
 
 # Conhecer O site 😁
 
-<a href="https://carlossoares123.github.io/gerador-piadas/">Visitar site</a>
+<a href="https://carlossoares123.github.io/Gerador-de-Piadas/">Visitar site</a>
 
 # Aviso 🚩🚩
 <p>O site apresenta piadas em Inglês</p>
